@@ -1,0 +1,16 @@
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.chart-container {
+  flex: 1 1 45%; // Ajusta el ancho de cada contenedor de gráfico
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: auto !important;
+}
